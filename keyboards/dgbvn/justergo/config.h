@@ -44,11 +44,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 /* Locking resynchronize hack */
 #define LOCKING_RESYNC_ENABLE
 
-//#define RGBLIGHT_ANIMATIONS
-//#define RGB_DI_PIN B15
-//#define RGBLED_NUM 11
-
-
 /* RGB LEDs */
 #define RGB_DI_PIN B15
 #define WS2812_SPI SPID2
@@ -58,8 +53,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define RGB_MATRIX_FRAMEBUFFER_EFFECTS
 #define RGB_MATRIX_LED_PROCESS_LIMIT 4
 #define RGB_MATRIX_LED_FLUSH_LIMIT 26
-#define DRIVER_LED_TOTAL 69
-#define RGBLED_NUM 69
+#define DRIVER_LED_TOTAL 67
+#define RGBLED_NUM 67
 
 /*
  * Feature disable options
